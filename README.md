@@ -1,6 +1,8 @@
 awscred
 -------
 
+Forked From  mhart/awscred, removing dependency on ReadFile() to enable the library to be used in Browserify
+
 A small standalone library to resolve AWS credentials and region details
 using, in order: environment variables, INI files, and HTTP calls (either to
 EC2 metadata or ECS endpoints, depending on environment).  Queues HTTP calls to
